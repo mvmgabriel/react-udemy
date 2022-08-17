@@ -9,9 +9,6 @@ jobs:
         with:
           node-version: 12.x
       - run: npm install 
-      - run: npm test
-        env:
-          CI: true
       - run: npm run build
       - uses: actions/upload-artifact@v1
         with:
