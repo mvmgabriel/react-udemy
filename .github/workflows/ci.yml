@@ -9,7 +9,4 @@ jobs:
         with:
           node-version: 12.x
       - run: npm install 
-      - uses: actions/upload-artifact@v1
-        with:
-          name: react-github-actions-build
-          path: build
+      
